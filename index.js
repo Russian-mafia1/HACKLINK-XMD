@@ -80,10 +80,10 @@ const store = {
     }
 }
 
-let phoneNumber = "911234567890"
+let phoneNumber = "254769677304"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = "KNIGHT BOT"
+global.botname = "HACKLINK-XMD"
 global.themeemoji = "•"
 
 const settings = require('./settings')
@@ -154,8 +154,8 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterJid: '120363401087525436@newsletter',
+                                newsletterName: 'HACKLINK',
                                 serverMessageId: -1
                             }
                         }
@@ -248,13 +248,13 @@ async function startXeonBotInc() {
             
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
-                text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
+                text: `HACKLINK-XMD  Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
                 \n✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterJid: '120363401087525436@newsletter', 
                         newsletterName: 'KnightBot MD',
                         serverMessageId: -1
                     }
@@ -262,13 +262,13 @@ async function startXeonBotInc() {
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'KNIGHT BOT'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'HACKLINK-XMD '} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MR UNIQUE HACKER`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: HACKLINK TECH.INC`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Russian-mafia1`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MR UNIQUE HACKER`))
-            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: HACKLINK TECH.INC`))
+            console.log(chalk.green(`${global.themeemoji || '•'} HACKLINK-XMD  Connected Successfully! ✅`))
         }
         if (
             connection === "close" &&
