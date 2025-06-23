@@ -5,10 +5,10 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || '𝗛𝗔𝗖𝗞𝗟𝗜𝗡𝗞-𝗫𝗠𝗗'}*  
-   Version: *${settings.version || '2.0.5'}*
-   by ${settings.botOwner || 'HACKLINK TECH.INC'}
-   YT : ${global.ytch}
+║  *🤖 ${settings.botName || '𝗛𝗔𝗖𝗞𝗟𝗜𝗡𝗞-𝗫𝗠𝗗'}*  
+║   Version: *${settings.version || '2.0.5'}*
+║   by ${settings.botOwner || 'HACKLINK TECH.INC'}
+║   YT : ${global.ytch}
 ╚═══════════════════╝
 
 *Available Commands:*
