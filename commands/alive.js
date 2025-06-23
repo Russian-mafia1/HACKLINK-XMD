@@ -1,10 +1,10 @@
 const settings = require("../settings");
 async function aliveCommand(sock, chatId, message) {
     try {
-        const message1 = `*🤖 Knight Bot is Active!*\n\n` +
+        const message1 = `*HACKLINK-XMD IS ALIVE SUCKER!!*\n\n` +
                        `*Version:* ${settings.version}\n` +
                        `*Status:* Online\n` +
-                       `*Mode:* Public\n\n` +
+                       `*Mode:* Private\n\n` +
                        `*🌟 Features:*\n` +
                        `• Group Management\n` +
                        `• Antilink Protection\n` +
@@ -18,8 +18,8 @@ async function aliveCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '120363401087525436@newsletter',
+                    newsletterName: 'HACKLINK',
                     serverMessageId: -1
                 }
             }
