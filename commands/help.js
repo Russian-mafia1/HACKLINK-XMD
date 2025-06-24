@@ -201,6 +201,32 @@ Join our channel for updates:`;
                 }
             });
         }
+
+        const audioUrls = [
+    'https://files.catbox.moe/hpwsi2.mp3',
+    'https://files.catbox.moe/xci982.mp3',
+    'https://files.catbox.moe/utbujd.mp3',
+    'https://files.catbox.moe/w2j17k.m4a',
+    'https://files.catbox.moe/851skv.m4a',
+    'https://files.catbox.moe/qnhtbu.m4a',
+    'https://files.catbox.moe/lb0x7w.mp3',
+    'https://files.catbox.moe/efmcxm.mp3',
+    'https://files.catbox.moe/gco5bq.mp3',
+    'https://files.catbox.moe/26oeeh.mp3',
+    'https://files.catbox.moe/a1sh4u.mp3',
+    'https://files.catbox.moe/vuuvwn.m4a',
+    'https://files.catbox.moe/wx8q6h.mp3',
+    'https://files.catbox.moe/uj8fps.m4a',
+    'https://files.catbox.moe/dc88bx.m4a',
+    'https://files.catbox.moe/tn32z0.m4a'
+        ];
+
+        const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
+
+        await sock.sendMessage(chatId, {
+            audio: { url: randomAudioUrl },
+            mimetype: 'audio/mp4'
+        }, { quoted: message });
     } catch (error) {
         console.error('Error in help command:', error);
         await sock.sendMessage(chatId, { text: helpMessage });
